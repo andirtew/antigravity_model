@@ -24,7 +24,7 @@ Sub2API 把这份名单和社区目录 router-for-me/models 取并集，作为�
 
 ## 生效时间
 
-Sub2API 每 10 分钟拉取一次下面的地址。改完推送到 `main` 后，所有实例一般在 15 分钟内生效；GitHub 的原始文件地址自带约 5 分钟缓存。
+Sub2API 每 3 小时拉取一次下面的地址，实例重启时也会立即拉取。改完推送到 `main` 后，所有实例最迟约 3 小时内生效；需要马上生效可以重启实例。
 
 ```text
 https://raw.githubusercontent.com/andirtew/antigravity_model/main/models.json
